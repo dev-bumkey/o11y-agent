@@ -14,11 +14,8 @@ COPY target/LogOperator-1.0-SNAPSHOT.jar app.jar
 RUN apt-get update
 RUN apt-get install -y wget
 
-ENV OTEL_EXPORTER_OTLP_ENDPOINT=http://cocktail-otel-collector-opentelemetry-collector:4318
-ENV OTEL_EXPORTER_OTLP_TRACES_ENDPOINT=http://cocktail-otel-collector-opentelemetry-collector:4318
-ENV OTEL_EXPORTER_OTLP_LOGS_ENDPOINT=http://cocktail-otel-collector-opentelemetry-collector:4318
-ENV OTEL_TRACES_EXPORTER=logging
-ENV OTEL_METRICS_EXPORTER=logging
+ENV OTEL_EXPORTER_OTLP_ENDPOINT=${OTEL_EXPORTER_OTLP_ENDPOINT}
+ENV OTEL_EXPORTER_OTLP_LOGS_ENDPOINT=${OTEL_EXPORTER_OTLP_ENDPOINT}
 ENV OTEL_LOGS_EXPORTER=logging
 
 RUN wget -q https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/download/v2.0.0/opentelemetry-javaagent.jar
