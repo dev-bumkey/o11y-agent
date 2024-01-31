@@ -24,6 +24,14 @@ public class RollController {
         return Integer.toString(result);
     }
 
+    @GetMapping(value = "/log")
+    public void doGetHelloWorldLog() {
+        logger.info("hello world");
+        logger.debug("debug world");
+        logger.warn("warn world");
+        logger.error("error world");
+    }
+
     public int getRandomNumber(int min, int max) {
         return ThreadLocalRandom.current().nextInt(min, max + 1);
     }
