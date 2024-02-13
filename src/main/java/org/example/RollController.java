@@ -1,5 +1,7 @@
 package org.example;
 
+import io.opentelemetry.instrumentation.annotations.SpanAttribute;
+import io.opentelemetry.instrumentation.annotations.WithSpan;
 import org.slf4j.*;
 import org.slf4j.Logger;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,8 +21,9 @@ public class RollController {
     private static final Logger logger = LoggerFactory.getLogger(RollController.class);
     private static final java.util.logging.Logger logger2 = java.util.logging.Logger.getLogger("BkLooker");
 
+    @WithSpan
     @GetMapping("/rolldice")
-    public String index(@RequestParam("player") Optional<String> player) {
+    public String index(@RequestParam("player") @SpanAttribute Optional<String> player) {
         int result = this.getRandomNumber(1, 6);
         if (player.isPresent()) {
             logger.info("{} is rolling the dice: {}", player.get(), result);
@@ -30,6 +33,7 @@ public class RollController {
         return Integer.toString(result);
     }
 
+    @WithSpan
     @GetMapping(value = "/log")
     public void doGetHelloWorldLog() {
         logger.info("hello world");
