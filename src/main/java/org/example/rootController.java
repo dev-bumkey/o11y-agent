@@ -9,10 +9,10 @@ import java.util.Optional;
 import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
-public class RollController {
-    private static final Logger logger = LoggerFactory.getLogger("OTLP");
+public class rootController {
+    private static final Logger logger = LoggerFactory.getLogger("ALL");
 
-    @GetMapping("/rolldice")
+    @GetMapping("/bk")
     public String index(@RequestParam("player") Optional<String> player) {
         int result = this.getRandomNumber(1, 6);
         if (player.isPresent()) {
@@ -22,7 +22,7 @@ public class RollController {
         }
         return Integer.toString(result);
     }
-    @GetMapping("/")
+    @GetMapping("/bk/1")
     public void doGetFileLog() {
         logger.info("111");
         logger.debug("222");
