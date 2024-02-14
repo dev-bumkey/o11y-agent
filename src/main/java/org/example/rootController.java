@@ -16,18 +16,18 @@ public class rootController {
     public String index(@RequestParam("player") Optional<String> player) {
         int result = this.getRandomNumber(1, 6);
         if (player.isPresent()) {
-            logger.info("{} is rolling the dice: {}", player.get(), result);
+            logger.info("!!!!!{} is rolling the dice: {}", player.get(), result);
         } else {
-            logger.info("Anonymous player is rolling the dice: {}", result);
+            logger.info("!!!!!Anonymous player is rolling the dice: {}", result);
         }
         return Integer.toString(result);
     }
     @GetMapping("/1")
     public void doGetFileLog() {
-        logger.info("111");
-        logger.debug("222");
-        logger.warn("333");
-        logger.error("444");
+        logger.info("sidecar info");
+        logger.debug("sidecar debug");
+        logger.warn("sidecar setting");
+        logger.error("complete");
     }
 
     public int getRandomNumber(int min, int max) {
