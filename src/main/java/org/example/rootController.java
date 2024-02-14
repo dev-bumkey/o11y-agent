@@ -10,9 +10,9 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
 public class rootController {
-    private static final Logger logger = LoggerFactory.getLogger("ALL");
+    private static final Logger logger = LoggerFactory.getLogger("CONSOLE");
 
-    @GetMapping("/bk")
+    @GetMapping("/")
     public String index(@RequestParam("player") Optional<String> player) {
         int result = this.getRandomNumber(1, 6);
         if (player.isPresent()) {
@@ -22,7 +22,7 @@ public class rootController {
         }
         return Integer.toString(result);
     }
-    @GetMapping("/bk/1")
+    @GetMapping("/1")
     public void doGetFileLog() {
         logger.info("111");
         logger.debug("222");

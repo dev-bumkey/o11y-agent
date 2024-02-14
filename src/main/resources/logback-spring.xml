@@ -8,50 +8,16 @@
         </encoder>
     </appender>
 
-    <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file> /var/log/logFile.log</file>
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>./log/logFile.%d{yyyy-MM-dd}.log</fileNamePattern>
-            <maxHistory>1</maxHistory>
-            <totalSizeCap>300MB</totalSizeCap>
-
-        </rollingPolicy>
-
-        <encoder>
-            <pattern>%-4relative [%thread] %-5level %logger{35} ---- %msg%n</pattern>
-        </encoder>
-    </appender>
-
-    <appender name="OpenTelemetry"
-              class="io.opentelemetry.instrumentation.logback.appender.v1_0.OpenTelemetryAppender">
-    </appender>
-
 
     <logger name="CONSOLE" additivity="false">
         <appender-ref ref="console"/>
         <level value="INFO"/>
     </logger>
 
-    <logger name="FILE" additivity="false">
-        <appender-ref ref="FILE"/>
-        <level value="INFO"/>
-    </logger>
 
-    <logger name="OTLP" additivity="false">
-        <appender-ref ref="OpenTelemetry"/>
-        <level value="INFO"/>
-    </logger>
-
-    <logger name="ALL" additivity="false">
-        <appender-ref ref="console"/>
-        <appender-ref ref="file" />
-        <appender-ref ref="OpenTelemetry"/>
-        <level value="INFO"/>
-    </logger>
 
     <root level="INFO">
         <appender-ref ref="console"/>
-        <appender-ref ref="file" />
-        <appender-ref ref="OpenTelemetry"/>
+
     </root>
 </configuration>

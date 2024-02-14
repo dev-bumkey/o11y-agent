@@ -22,13 +22,13 @@ public class RollController {
         }
         return Integer.toString(result);
     }
-    @GetMapping("/")
-    public void doGetFileLog() {
-        logger.info("111");
-        logger.debug("222");
-        logger.warn("333");
-        logger.error("444");
-    }
+//    @GetMapping("/")
+//    public void doGetFileLog() {
+//        logger.info("111");
+//        logger.debug("222");
+//        logger.warn("333");
+//        logger.error("444");
+//    }
 
     public int getRandomNumber(int min, int max) {
         return ThreadLocalRandom.current().nextInt(min, max + 1);
