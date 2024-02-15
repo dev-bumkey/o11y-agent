@@ -9,11 +9,6 @@
     </appender>
 
 
-    <logger name="OTHER" additivity="false">
-        <appender-ref ref="console"/>
-        <level value="INFO"/>
-    </logger>
-
     <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file> /var/log/logFile.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
@@ -29,8 +24,13 @@
     </appender>
 
 
+    <logger name="OTHER" additivity="false">
+        <appender-ref ref="console"/>
+        <level value="INFO"/>
+    </logger>
+
     <logger name="FILE" additivity="false">
-        <appender-ref ref="FILE"/>
+        <appender-ref ref="file"/>
         <level value="INFO"/>
     </logger>
 
