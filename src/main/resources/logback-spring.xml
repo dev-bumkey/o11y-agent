@@ -9,7 +9,7 @@
     </appender>
 
 
-    <logger name="CONSOLE" additivity="false">
+    <logger name="OTHER" additivity="false">
         <appender-ref ref="console"/>
         <level value="INFO"/>
     </logger>

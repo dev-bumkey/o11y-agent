@@ -10,15 +10,15 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
 public class rootController {
-    private static final Logger logger = LoggerFactory.getLogger("CONSOLE");
+    private static final Logger logger = LoggerFactory.getLogger("OTHER");
 
     @GetMapping("/")
     public String index(@RequestParam("player") Optional<String> player) {
         int result = this.getRandomNumber(1, 6);
         if (player.isPresent()) {
-            logger.info("!!!!!{} is rolling the dice: {}", player.get(), result);
+            logger.info("Other Namespace", player.get(), result);
         } else {
-            logger.info("!!!!!Anonymous player is rolling the dice: {}", result);
+            logger.info("Other Namespace is log", result);
         }
         return Integer.toString(result);
     }
