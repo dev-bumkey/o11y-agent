@@ -19,7 +19,7 @@
         </rollingPolicy>
 
         <encoder>
-            <pattern>%-4relative [%thread] %-5level %logger{35} ---- %msg%n</pattern>
+            <pattern>%-5level %d{HH:mm:ss.SSS}  %logger{36} %msg%n ---- %msg%n</pattern>
         </encoder>
     </appender>
 
