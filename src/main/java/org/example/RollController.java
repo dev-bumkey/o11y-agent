@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
 public class RollController {
-    private static final Logger logger = LoggerFactory.getLogger("OTLP");
+    private static final Logger logger = LoggerFactory.getLogger("FILE");
 
     @GetMapping("/rolldice")
     public String index(@RequestParam("player") Optional<String> player) {

@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
 public class console {
-    private static final Logger logger = LoggerFactory.getLogger("CONSOLE");
+    private static final Logger logger = LoggerFactory.getLogger("OTHER");
     @GetMapping(value = "/console")
     public void doGetConsoleLog() {
         logger.info("hello world");
