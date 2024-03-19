@@ -27,15 +27,15 @@
 
     <logger name="OTHER" additivity="false">
         <appender-ref ref="console"/>
-        <level value="INFO"/>
+        <level value="DEBUG"/>
     </logger>
 
     <logger name="FILE" additivity="false">
         <appender-ref ref="file"/>
-        <level value="INFO"/>
+        <level value="DEBUG"/>
     </logger>
 
-    <root level="INFO">
+    <root level="DEBUG">
         <appender-ref ref="console"/>
 
     </root>
