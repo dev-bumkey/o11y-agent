@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 @SpringBootApplication
 public class MyApp {
 
-    private static final Logger logger = LoggerFactory.getLogger("CONSOLE");
+    private static final Logger logger = LoggerFactory.getLogger("FILE");
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(MyApp.class);
         app.setBannerMode(Banner.Mode.OFF);
