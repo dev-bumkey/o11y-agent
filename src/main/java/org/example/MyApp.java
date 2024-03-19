@@ -28,8 +28,13 @@ public class MyApp {
         scheduler.scheduleAtFixedRate(() -> {
             double r = Math.random();
             int intValue = (int) (r * 100) + 1;
+            logger.info("Logging Start");
             logger.info("Random Value: {}", intValue);
-        }, 0, 30, TimeUnit.SECONDS); // 30초마다 실행
+            if (intValue < 10) logger.error("value is smaller than 10 ");
+            if (intValue < 10) logger.warn("value is bigger than 10");
+            logger.trace("Logging End");
+            logger.debug("Logger Debug");
+        }, 0, 15, TimeUnit.SECONDS); // 15초마다 실행
 
         // 어플리케이션이 종료될 때 스케줄러도 종료되도록 합니다.
         Runtime.getRuntime().addShutdownHook(new Thread(scheduler::shutdown));
