@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
+    <import class="ch.qos.logback.classic.encoder.PatternLayoutEncoder"/>
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>
@@ -7,7 +8,6 @@
             </pattern>
         </encoder>
     </appender>
-
 
     <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file> /var/log/logFile.log</file>
@@ -18,9 +18,9 @@
 
         </rollingPolicy>
 
-        <!--        %F : 로깅이 발생된 파일명, %M : 로깅이 발생된 메소드명-->
+<!--        <encoder class="net.logstash.logback.encoder.LogstashEncoder">-->
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSSSSSSS} %d{SSSSSSSSS} %-5level %logger{36} %F-%M ===> %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} %F-%M ===> %msg%n</pattern>
         </encoder>
     </appender>
 
@@ -31,6 +31,12 @@
     </logger>
 
     <logger name="FILE" additivity="false">
+        <appender-ref ref="file"/>
+        <level value="DEBUG"/>
+    </logger>
+
+    <logger name="ALL" additivity="false">
+        <appender-ref ref="console"/>
         <appender-ref ref="file"/>
         <level value="DEBUG"/>
     </logger>
