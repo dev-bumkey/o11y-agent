@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03398f89-04fd-4446-a7b7-10706b088e28" name="변경" comment="timestamp nanoSec">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="03398f89-04fd-4446-a7b7-10706b088e28" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,19 +13,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dockerfile" />
         <option value="Class" />
-        <option value="spring-beans.schema" />
+        <option value="Dockerfile" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -37,47 +26,40 @@
     </option>
   </component>
   <component name="ProjectId" id="2behQgACfpudfuI4gNjy1IesljI" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "simplest",
-    "last_opened_file_path": "/Users/bumkey/work/LogOperator/target",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "spring.configuration.checksum": "9cde1da80befca62efdaf0e6289cdbb1",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bumkey/work/LogOperator/target&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5547c8e5fde2fcc7a3172d74a8d86972&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/target" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/target/classes/org/example" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,7 +69,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MyApp">
+  <component name="RunManager" selected="Maven.LogOperator [clean,package]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="LogOperator" />
@@ -189,11 +171,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MyApp" />
-        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="Spring Boot.MyApp" />
+        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -213,291 +193,10 @@
       <workItem from="1706612353754" duration="80000" />
       <workItem from="1706657249346" duration="2830000" />
       <workItem from="1706661639941" duration="308000" />
-      <workItem from="1706662080917" duration="3661000" />
-      <workItem from="1706686846564" duration="23000" />
-      <workItem from="1706687546202" duration="24000" />
-      <workItem from="1706688157969" duration="31000" />
-      <workItem from="1706688397562" duration="3067000" />
-      <workItem from="1707357722695" duration="2080000" />
-      <workItem from="1707784657735" duration="2716000" />
-      <workItem from="1707798177131" duration="1087000" />
-      <workItem from="1707799510010" duration="150000" />
-      <workItem from="1707800298851" duration="932000" />
-      <workItem from="1707801324291" duration="6195000" />
-      <workItem from="1707885348917" duration="479000" />
-      <workItem from="1707885995914" duration="1129000" />
-      <workItem from="1707888033584" duration="306000" />
-      <workItem from="1707888370380" duration="2137000" />
-      <workItem from="1707952852136" duration="557000" />
-      <workItem from="1707981707558" duration="12504000" />
-      <workItem from="1708930333231" duration="1532000" />
-      <workItem from="1708997695823" duration="2086000" />
-      <workItem from="1710805971592" duration="145000" />
-      <workItem from="1710807025072" duration="4630000" />
-      <workItem from="1711002417164" duration="373000" />
-      <workItem from="1711407709107" duration="3077000" />
-      <workItem from="1711610819048" duration="1802000" />
-      <workItem from="1711685641127" duration="809000" />
-      <workItem from="1711953304802" duration="297000" />
-      <workItem from="1712219860132" duration="2090000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1706662629661</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1706662629662</updated>
-    </task>
-    <task id="LOCAL-00002" summary="s commit">
-      <created>1706667909639</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1706667909639</updated>
-    </task>
-    <task id="LOCAL-00003" summary="33">
-      <created>1706688764212</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1706688764212</updated>
-    </task>
-    <task id="LOCAL-00004" summary="4">
-      <created>1706688840820</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1706688840820</updated>
-    </task>
-    <task id="LOCAL-00005" summary="5">
-      <created>1707359082647</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1707359082647</updated>
-    </task>
-    <task id="LOCAL-00006" summary="withspan 사용">
-      <created>1707789899613</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1707789899613</updated>
-    </task>
-    <task id="LOCAL-00007" summary="로그어펜더 적용">
-      <created>1707803814903</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1707803814904</updated>
-    </task>
-    <task id="LOCAL-00008" summary="로그어펜더: 파일 적용">
-      <created>1707809455025</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1707809455025</updated>
-    </task>
-    <task id="LOCAL-00009" summary="로그어펜더: 수정">
-      <created>1707811148794</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1707811148794</updated>
-    </task>
-    <task id="LOCAL-00010" summary="로그어펜더: 수정">
-      <created>1707811656271</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1707811656271</updated>
-    </task>
-    <task id="LOCAL-00011" summary="로그어펜더 분기처리">
-      <created>1707815004225</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1707815004226</updated>
-    </task>
-    <task id="LOCAL-00012" summary="sidecar 테스트">
-      <created>1707888766973</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1707888766973</updated>
-    </task>
-    <task id="LOCAL-00013" summary="sidecar 테스트1">
-      <created>1707891593698</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1707891593698</updated>
-    </task>
-    <task id="LOCAL-00014" summary="sidecar 테스트2">
-      <created>1707892742260</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1707892742260</updated>
-    </task>
-    <task id="LOCAL-00015" summary="other namespace log ㅂㅏㄹ생 테스트">
-      <created>1707981780552</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1707981780552</updated>
-    </task>
-    <task id="LOCAL-00016" summary="other namespace log - 파일로그">
-      <created>1707985099197</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1707985099197</updated>
-    </task>
-    <task id="LOCAL-00017" summary="other namespace log - 파일로그">
-      <created>1707985725300</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1707985725300</updated>
-    </task>
-    <task id="LOCAL-00018" summary="logback 변경">
-      <created>1708318519404</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1708318519404</updated>
-    </task>
-    <task id="LOCAL-00019" summary="logback 변경">
-      <created>1708318586565</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1708318586565</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Re)logback 변경">
-      <created>1708319077022</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1708319077022</updated>
-    </task>
-    <task id="LOCAL-00021" summary="로그백 변경">
-      <created>1708575920707</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1708575920707</updated>
-    </task>
-    <task id="LOCAL-00022" summary="30초 마다 랜덤 정수 로그 표현">
-      <option name="closed" value="true" />
-      <created>1710810503563</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1710810503563</updated>
-    </task>
-    <task id="LOCAL-00023" summary="15초 마다 로깅">
-      <option name="closed" value="true" />
-      <created>1710811022354</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1710811022354</updated>
-    </task>
-    <task id="LOCAL-00024" summary="15초 마다 로깅 -1">
-      <option name="closed" value="true" />
-      <created>1710811832280</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1710811832280</updated>
-    </task>
-    <task id="LOCAL-00025" summary="15초 마다 로깅 -2">
-      <option name="closed" value="true" />
-      <created>1710812278528</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1710812278528</updated>
-    </task>
-    <task id="LOCAL-00026" summary="new build">
-      <option name="closed" value="true" />
-      <created>1711611056676</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1711611056676</updated>
-    </task>
-    <task id="LOCAL-00027" summary="new build">
-      <option name="closed" value="true" />
-      <created>1711611470576</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1711611470576</updated>
-    </task>
-    <task id="LOCAL-00028" summary="timestamp nanoSec">
-      <option name="closed" value="true" />
-      <created>1712273892321</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1712273892321</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/simplest" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="s commit" />
-    <MESSAGE value="33" />
-    <MESSAGE value="4" />
-    <MESSAGE value="5" />
-    <MESSAGE value="withspan 사용" />
-    <MESSAGE value="로그어펜더 적용" />
-    <MESSAGE value="로그어펜더: 파일 적용" />
-    <MESSAGE value="로그어펜더: 수정" />
-    <MESSAGE value="로그어펜더 분기처리" />
-    <MESSAGE value="sidecar 테스트" />
-    <MESSAGE value="sidecar 테스트1" />
-    <MESSAGE value="sidecar 테스트2" />
-    <MESSAGE value="other namespace log ㅂㅏㄹ생 테스트" />
-    <MESSAGE value="other namespace log - 파일로그" />
-    <MESSAGE value="logback 변경" />
-    <MESSAGE value="Re)logback 변경" />
-    <MESSAGE value="로그백 변경" />
-    <MESSAGE value="30초 마다 랜덤 정수 로그 표현" />
-    <MESSAGE value="15초 마다 로깅" />
-    <MESSAGE value="15초 마다 로깅 -1" />
-    <MESSAGE value="15초 마다 로깅 -2" />
-    <MESSAGE value="new build" />
-    <MESSAGE value="timestamp nanoSec" />
-    <option name="LAST_COMMIT_MESSAGE" value="timestamp nanoSec" />
   </component>
 </project>
